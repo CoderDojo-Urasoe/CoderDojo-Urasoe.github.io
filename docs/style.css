@@ -1,0 +1,16 @@
+img {
+    border-radius: 50%; /* 画像の角を丸くする */
+}
+section {
+    border-width: 1px; /* 枠線を1pxの太さに設定 */
+    border-color: gray; /* 枠線の色をグレーに設定 */
+    border-style: solid; /* 枠線の種類を実践に設定 */
+    border-radius: 8px; /* 枠線の角を丸くする */
+    padding: 16px; /* 内側の余白を16pxに設定 */
+    margin-bottom: 8px; /* 外側の下の余白を8pxに設定 */
+    background-image:url(bg.jpg); /* 背景画像を設定 */
+}
+body {
+    text-align: center; /* テキストの位置を真ん中に設定 */
+}
+    
