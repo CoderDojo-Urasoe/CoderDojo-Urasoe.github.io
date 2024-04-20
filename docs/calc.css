@@ -2,7 +2,6 @@ body {
     background-image:url(img/bg.jpg); /* 背景画像を設定 */
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgba(171, 226, 243, 0.406);
 }
 #calculator {
     width: 300px;
