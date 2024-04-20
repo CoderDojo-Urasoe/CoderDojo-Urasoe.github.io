@@ -1,0 +1,31 @@
+body {
+    background-image:url(img/bg.jpg); /* 背景画像を設定 */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#calculator {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+div {
+    margin-top: 20px;
+    font-size: 20px;
+}

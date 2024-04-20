@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Simple Calculator</title>
+<link rel="stylesheet" href="calc.css"> <!-- CSSファイルへのリンク -->
+</head>
+<body>
+
+<div id="calculator">
+    <input type="number" id="value1" placeholder="最初の数字">
+    <input type="number" id="value2" placeholder="２つ目の数字">
+    
+    <button onclick="calculate('+')">Add (+)</button>
+    <button onclick="calculate('-')">Subtract (-)</button>
+    <button onclick="calculate('*')">Multiply (*)</button>
+    <button onclick="calculate('/')">Divide (/)</button>
+    
+    <div>結果: <span id="result">0</span></div>
+    <div><a href="index.html">戻る</a></div>
+</div>
+
+<script src="calc.js"></script> <!-- JavaScriptファイルへのリンク -->
+</body>
+</html>
