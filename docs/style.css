@@ -16,6 +16,7 @@ section {
 }
 body {
     text-align: center; /* テキストの位置を真ん中に設定 */
+    background-color: rgba(171, 226, 243, 0.406);
 }
 
 #calculator {
