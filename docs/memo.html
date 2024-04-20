@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="memo.css" />
+    <title>メモアプリ</title>
+  </head>
+  <body>
+    <div class="contents">
+      <h1>メモアプリ</h1>
+      <div class="addMemo">
+        <input type="text" id="memoInput" placeholder="メモを入力" />
+        <input type="file" id="imageInput" />
+        <button onclick="addMemo()">メモを追加</button>
+      </div>
+      <div class="searchMemo">
+        <input type="text" id="searchInput" placeholder="キーワードを入力" />
+        <button onclick="searchMemo()">検索</button>
+        <button onclick="resetSearch()">リセット</button>
+      </div>
+      <div class="back">
+        <a href="index.html">戻る</a>
+      </div>
+      <h2>メモリスト</h2>
+      <div class="memoList">
+        <div class="memoListContents">
+          <ul id="memoList"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="memo.js"></script>
+  </body>
+</html>
